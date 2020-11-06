@@ -1,0 +1,187 @@
+
+
+
+                     /*estilo básico*/
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*header*/
+
+header {
+  align-self: flex-end;
+    padding: 10px 30px;
+    width: 100%;
+
+  /*   position: absolute; 
+  left: 90px; 
+  top: 70px;*/
+
+}
+ul {
+
+	list-style: none;
+}
+  
+}
+.navbar {
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+  text-align: left;
+}
+  
+.topnav a {
+  float: left;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px 0px 0px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+}
+ul {
+	
+	margin: 0;
+	padding: 
+	0;
+	
+    top: 0;
+    width: 100%;
+    
+}
+
+li {
+	
+    display: inline-block;
+    line-height: 70px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-left: 50;
+    
+}
+
+	
+li a:hover {
+  background-color: #111;
+}
+
+                                   /*center elements*/
+.centro {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align:center;
+  /*background-color: rgba(10,23,55,0.7);*/
+  color: grey;
+  
+  /* pura mágica */
+  position: absolute;
+  top: 30%; /* posiciona na metade da tela */
+  margin-top: -25px; /* e retrocede metade da altura */
+}
+
+.button {
+    width: 600px;
+
+  	border: 1px solid #ccc;
+    border-radius: 60px;
+    font-size: 10px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: -20px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+.button2 {
+ 
+background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+
+
+
+}
+
+                                /*footer*/
+.footer {
+    width: 100%;
+    height: 4.8rem;
+    text-align: left;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    padding-left: 1px;
+    padding-right: 1px;
+    position: fixed;
+    bottom: 25px;
+
+
+}
+
+footer a{
+    color: dimgray;
+    padding: 13px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: dimgray;
+    padding: 13px;
+    text-decoration: underline;
+}
+
+
+.footer-location{
+    padding: 13px;
+    color: dimgray;
+}
+
+
+.footer-upper{
+    border-top: 1px solid #e8e8e8;
+    padding: 11px;
+    background-color: #f2f2f2
+}
+
+.footer-down  {
+    border-top: 1px solid #e8e8e8;
+    padding: 5px; 
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f2f2f2;
+
+
+
+}
+
+
+
+
+
